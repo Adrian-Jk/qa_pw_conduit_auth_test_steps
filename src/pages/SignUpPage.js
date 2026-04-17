@@ -44,4 +44,5 @@ export class SignUpPage {
     await test.step("Assert error message contains text", async () => {
     await expect(this.errorMessage).toContainText(messageText);
   });
+  }
 }
